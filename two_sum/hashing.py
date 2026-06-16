@@ -7,4 +7,4 @@ def two_sum(nums, target):
         seen[num] = i
     return []
 
-print(two_sum([2,7,11,15], 17))    
+print(two_sum([2,7,11,15], 9))    
