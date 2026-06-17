@@ -8,4 +8,4 @@ def find_duplicates(nums):
             seen.add(num)
     return duplicates
 
-print(find_duplicates([1, 2, 3, 1, 2, 5, 4, 6, 5, 4, 3]))
+print(find_duplicates([1, 2, 3, 1, 2, 5, 4, 6, 5, 4, 3]))      
