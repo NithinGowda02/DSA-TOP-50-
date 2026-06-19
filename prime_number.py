@@ -10,3 +10,4 @@ def prime(num):
 for num in range(1, 11):
     if prime(num):
         print(num)        
+
