@@ -7,7 +7,6 @@ def vowel(s):
                 count[i] += 1
             else:
                 count[i] = 1    
-
     return count
 print(vowel("helloe"))        
 
