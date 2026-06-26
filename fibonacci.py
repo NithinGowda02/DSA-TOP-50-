@@ -1,8 +1,9 @@
 def fibonacci(n):
-    a ,b = 0, 1
-    fib = []
+    a, b = 0, 1
+    res = []
     for _ in range(n):
-        fib.append(a)
-        a, b = b, a + b
-    return fib
-print(fibonacci(10))
+        res.append(a)
+        a, b = b, a+b
+    return res
+print(fibonacci(10))    
+        
