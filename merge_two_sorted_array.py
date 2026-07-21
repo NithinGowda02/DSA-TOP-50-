@@ -12,4 +12,4 @@ def merge_sort(a, b):
     result.extend(b[j:])
     return result
 
-print(merge_sort([1,3,5],[2,4,6]))            
+print(merge_sort([1,7,9,10,12],[2,4,6]))            

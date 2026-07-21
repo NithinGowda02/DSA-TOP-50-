@@ -1,6 +1,7 @@
 def gcd(a, b):
-    while b != 0:
-        a, b = b, a % b
-    return a
-
-print(gcd(12, 18))    
+    small = min(a,b)
+    for i in range(small,0,-1):
+        if a % i == 0 and b % i == 0:
+            print("GCD/HCF : ",i)
+            break  
+print(gcd(18, 24))          

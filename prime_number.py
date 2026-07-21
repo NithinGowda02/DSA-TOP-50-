@@ -11,4 +11,4 @@ def prime(n):
             prime_num.append(num)    
     return prime_num
 
-print(prime(10))        
+print(prime(20))        

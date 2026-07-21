@@ -11,3 +11,4 @@ def palindrome(s):
 
 
 print(palindrome("A man a plan a canal Panama"))
+   
